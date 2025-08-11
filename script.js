@@ -40,7 +40,7 @@
       const blob = new Blob([document.documentElement.outerHTML], {type: 'application/msword'});
       const url = URL.createObjectURL(blob);
       const a = document.createElement('a');
-      a.href = url; a.download = 'Bruces-Resume/Bruce_Ngixi_Full_Stack_Developer_CV.docx';
+      a.href = url; a.download = 'Bruces-Resume/Bruce_Ngixi_Full_Stack_Developer_CV';
       document.body.appendChild(a);
       a.click();
       a.remove();
