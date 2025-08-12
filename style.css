@@ -24,7 +24,7 @@
          max-width: 920px;
         margin: 18px auto;
         padding: 18px;
-        background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+        background: url("Batman.png");
         border-radius: 18px;
         box-shadow: 0 8px 30px rgba(2,6,23,0.6);
         display: flex;
