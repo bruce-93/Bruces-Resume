@@ -207,7 +207,16 @@
     /***************Tablets, Mobile & Smaller screen styling***************/
     @media (max-width: 768px) {
         /* Styles for screens up to 768px wide (e.g., tablets and mobile) */
-    
+        .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url("Bruce.jpg");
+        background-size: cover;
+        background-position: center;
+        margin: 2px 140px 0 0;
+    }
+
         .name {
             text-align: center;
             color: #ffff;
@@ -243,7 +252,16 @@
 
     @media (min-width: 320px) and (max-width: 480px) {
         /* Styles for screens between 320px and 480px wide (e.g., smaller mobile phones) */
-        
+        .avatar {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        background-image: url("Bruce.jpg");
+        background-size: cover;
+        background-position: center;
+        margin: 2px 140px 0 0;
+    }
+
    
         .name {
             text-align: center;
