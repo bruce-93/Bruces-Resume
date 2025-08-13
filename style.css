@@ -25,7 +25,10 @@
         margin: 18px auto;
         padding: 18px;
         background: url("Batman.png");
-        border-radius: 18px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
         box-shadow: 0 8px 30px rgba(2,6,23,0.6);
         display: flex;
         flex-direction: column;
