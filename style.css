@@ -55,7 +55,8 @@
         background-image: url("Bruce.jpg");
         background-size: cover;
         background-position: center;
-        margin: 0 auto 10px;
+        margin: 0 0 0 140px;
+        float: left;
     }
 
     .avatar svg {
@@ -65,29 +66,36 @@
     }
     .name {
         text-align: center;
+        color: #ffff;
         margin-top: 12px;
         font-weight: 700;
         font-size: 1.15rem;
+        width: fit-content;
+        margin: 0 0 0 140px;
     }
     .title {
         text-align: center;
-        color: var(--muted);
+        color: #ffff;
         font-size: 0.92rem;
         margin-top: 6px;
+        width: fit-content;
+        margin: 0 0 0 120px;
     }
     .contact {
         text-align: center;
         margin-top: 14px;
         color: var(--muted);
         font-size: 0.9rem;
+        width: fit-content;
+        margin: 0 0 0 90px;
     }
     .contact a {
         text-decoration: none;
-        color: rgb(48, 50, 95);
+        color: aqua;
     }
     .contact p {
         margin: 8px 0;
-        color: rgb(48, 50, 95);
+        color: #ffff;
     }
 /************************ Social Media icon styling**************************/
     .social {
@@ -195,4 +203,77 @@
     .nav-btn.active {
         background: linear-gradient(90deg, rgba(124,92,255,0.12), rgba(64,201,255,0.06));
         color: #eaf0ff;
+    }
+    /***************Tablets, Mobile & Smaller screen styling***************/
+    @media (max-width: 768px) {
+        /* Styles for screens up to 768px wide (e.g., tablets and mobile) */
+    
+        .name {
+            text-align: center;
+            color: #ffff;
+            margin: 2px 140px 0 0;
+            font-weight: 700;
+            font-size: 1.15rem;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 0px 4px 0px 4px;
+            border-radius: 8px;
+
+        }
+        .title {
+            text-align: center;
+            color: #ffff;
+            font-size: 0.92rem;
+            margin: 2px 140px 0 0;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 1px 4px 1px 4px;
+            border-radius: 8px;
+            width: fit-content;
+        }
+        .contact {
+            text-align: center;
+            margin: 2px 140px 0 0;
+            color: var(--muted);
+            font-size: 0.9rem;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 0px 4px 0px 4px;
+            border-radius: 8px;
+            width: fit-content;
+        }
+    }
+
+    @media (min-width: 320px) and (max-width: 480px) {
+        /* Styles for screens between 320px and 480px wide (e.g., smaller mobile phones) */
+        
+   
+        .name {
+            text-align: center;
+            color: #ffff;
+            margin: 2px 140px 0 0;
+            font-weight: 700;
+            font-size: 1.15rem;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 0px 4px 0px 4px;
+            border-radius: 8px;
+
+        }
+        .title {
+            text-align: center;
+            color: #ffff;
+            font-size: 0.92rem;
+            margin: 2px 140px 0 0;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 1px 4px 1px 4px;
+            border-radius: 8px;
+            width: fit-content;
+        }
+       .contact {
+            text-align: center;
+            margin: 2px 140px 0 0;
+            color: var(--muted);
+            font-size: 0.9rem;
+            background-color: rgba(33, 23, 23, 0.2);
+            padding: 0px 4px 0px 4px;
+            border-radius: 8px;
+            width: fit-content;
+        }
     }
