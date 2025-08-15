@@ -19,7 +19,7 @@
         font-size: 16px;
         color: #e6eef8;
     }
-/******************Top header div styling************************/
+/******************Top header wrapper div styling************************/
     .top-wrap {
         max-width: 100%;
         margin: auto;
@@ -35,7 +35,7 @@
         gap: 18px;
     }
 
-    /*****************Main section styling***************************/
+    /*****************Main section wrapper styling***************************/
     .wrap {
         max-width: 920px;
         margin: 18px auto;
@@ -47,7 +47,7 @@
         flex-direction: column;
         gap: 18px;
     }
-
+    /*******************Avatar, name, title and Contact styling**********************/
     .avatar {
         width: 120px;
         height: 120px;
@@ -129,7 +129,7 @@
     .muted {
         color: var(--muted);
     }
-
+    /************Hidden Drop down summary section *****************/
     .summary-box {
         padding: 12px;
         background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
@@ -144,18 +144,18 @@
         padding: 12px;
     }
 
-    .job {
+    .studied {
         padding: 12px;
         border-radius: 10px;
         background: var(--glass-2);
         border: 1px solid rgba(255,255,255,0.02);
         margin-bottom: 10px;
     }
-    .job h3 {
+    .studied h3 {
         margin: 0;
         font-size: 1rem;
     }
-    .job .meta {
+    .studied .meta {
         font-size: 0.85rem;
         color: var(--muted);
     }
