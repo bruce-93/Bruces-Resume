@@ -21,10 +21,10 @@
     }
 /******************Top header div styling************************/
     .top-wrap {
-         max-width: 100%;
+        max-width: 100%;
         margin: auto;
         padding: 18px;
-        background: url("Night-coding.gif");
+        background: url("creative-desktop-wallpaper_941097-67554.avif");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -91,7 +91,7 @@
     }
     .contact a {
         text-decoration: none;
-        color: aqua;
+        color: skyblue;
     }
     .contact p {
         margin: 8px 0;
@@ -111,7 +111,7 @@
         transition: color 0.2s
     }
     .social a:hover {
-        color: #140376;
+        color: maroon;
     }
 
     .content {
@@ -207,6 +207,20 @@
     /***************Tablets, Mobile & Smaller screen styling***************/
     @media (max-width: 768px) {
         /* Styles for screens up to 768px wide (e.g., tablets and mobile) */
+         .top-wrap {
+        max-width: 100%;
+        margin: auto;
+        padding: 18px;
+        background: url("creative-desktop-wallpaper_941097-67554.avif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+        box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
         .avatar {
         width: 120px;
         height: 120px;
@@ -252,6 +266,20 @@
 
     @media (min-width: 320px) and (max-width: 480px) {
         /* Styles for screens between 320px and 480px wide (e.g., smaller mobile phones) */
+         .top-wrap {
+        max-width: 100%;
+        margin: auto;
+        padding: 18px;
+        background: url("creative-desktop-wallpaper_941097-67554.avif");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 4px;
+        box-shadow: 0 8px 30px rgba(2,6,23,0.6);
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+    }
         .avatar {
         width: 120px;
         height: 120px;
